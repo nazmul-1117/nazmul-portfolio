@@ -1,0 +1,142 @@
+body{
+    background-color: #032421;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("picture/bg1.jpeg");
+}
+
+.main-div{
+    width: 100%;
+    height: 680px;
+    overflow: hidden;
+}
+
+.header{
+    margin-top: 10px;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-list{
+    display: flex;
+    margin-left: auto;
+}
+
+ul  li{
+    margin: 25px, 25px;
+    padding: 0px 25px;
+    list-style: none;
+}
+
+.logo{
+    background-color: #00ffbf;
+    height: auto;
+    width: 135px;
+    margin: -25px 0px 0px 30px;
+
+    background: url("picture/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name-div{
+    display: flex;
+}
+
+.name{
+    height: 300px;
+    width: 75%;
+    border-radius: 20px;
+
+    margin: 25px;
+    padding: 0px 25px;
+}
+
+span{
+    color: #00ebb0;
+}
+
+.picture{
+    height: 300px;
+    width: 25%;
+    margin: 20px 40px;
+
+    background: url("picture/nazmul_r2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-div{
+    width: 100%;
+    display: flex;
+    height: 180px;
+}
+
+.col1{
+    width: 33%;
+    text-align: center;
+}
+
+h5, h6{
+    padding: 0px;
+    margin: 0px;
+    color: #e5b73b;
+}
+
+.col2{
+    width: 33%;
+    text-align: center;
+}
+
+.skill-list>li{
+    display: block;
+    color: #7cfc00; 
+}
+
+.col3{
+    width: 33%;
+    text-align: center;
+}
+
+.contact-list>li{
+    display: block;
+    color: #40e0d0;
+}
+
+.social-buttons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.social-button img{
+    width: 50%;
+    height: auto;
+}
+
+h4{
+    margin-top: -5px;
+    color: #00bfff;
+}
+
+h1{
+    font-size: 48px;
+    margin-top: -2px;
+}
+
+h3{
+    margin-top: -10px;
+}
+
