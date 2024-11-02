@@ -1,57 +1,55 @@
 #educations{
     height: 100vh;
     width: 100%;
-    background-color: #00041d;
+    background-color: var(--education-bg);
 }
 
 .educations-title{
     height: 10vh;
     text-align: center;
-    font-size: 4rem;
-    color: tomato;
+    color: var(--title-text-color);
+    line-height: 10vh;
 }
 
 /* 2nd div main content */
 .educations-content{
-    height: 90vh;
+    height: auto;
     display: flex;
     flex-basis: 100%;
     justify-content: center;
     flex-wrap: wrap;
-
-    padding: 25px;
+    padding: 5vh 2vw;
 }
 
 /* main content 1st column */
 .educations-content-academy{
-    width: 50%;
-    flex-basis: 50%;
-    /* background: #00440f; */
-
-    padding: 25px;
+    width: 60%;
+    flex-basis: 60%;
 }
 
 /* main content 2nd column */
 .educations-content-online{
-    width: 50%;
-    flex-basis: 50%;
-    /* background: #610101; */
+    width: 40%;
+    flex-basis: 40%;
 }
 
 /* academy details background */
 .academy{
     display: flex;
-    background: #374945;
+    background: var(--secondary-color);
     border-radius: 10px;
-    
     width: 100%;
-    height: 150px;
+    height: 30%;
     margin: 5px;
     padding: 5px;
     gap: 10px;
     align-items: center;
     margin-bottom: 25px;
 
+}
+
+.academy a{
+    text-decoration: none;
 }
 
 .academy-pic{
@@ -74,19 +72,16 @@
 
 .academy-content h2{
     margin: 5px 0px;
-    
-    font-size: 1.5rem;
     color: #ff8c00;
 }
 
 .academy-content h3{
-    font-size: 1.1rem;
-    color: #00ffff;
+    color: #3801b8;
 }
 
 .academy-content p{
     margin: 5px 0px;
-    color: #00ff00;
+    color: #7ce79e;
 }
 
 .bsc{
