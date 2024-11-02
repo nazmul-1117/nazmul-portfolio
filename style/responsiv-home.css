@@ -114,6 +114,7 @@
         min-height: 100vh;
         padding: 0;
         justify-content: center;
+        align-items: center;
     }
 
     .home-title {
@@ -289,11 +290,13 @@
 
     .contacts-content {
         display: flex;
-        height: 100vh;
+        min-height: 100vh;
+        height: auto;
         flex-direction: column;
         padding: 2vh;
         padding: 0;
         flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     .contact-col1 {

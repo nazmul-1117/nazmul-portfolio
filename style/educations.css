@@ -1,5 +1,6 @@
 #educations{
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
     background-color: var(--education-bg);
 }
